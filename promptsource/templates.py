@@ -26,7 +26,7 @@ env.globals.update(zip=zip)
 
 # These are users whose datasets should be included in the results returned by
 # filter_english_datasets (regardless of their metadata)
-INCLUDED_USERS = {"Zaid", "craffel"}
+INCLUDED_USERS = {"Zaid", "craffel", "lauritowal"}
 
 # These are the metrics with which templates can be tagged
 METRICS = {
@@ -487,6 +487,7 @@ class TemplateCollection:
                     output = {**output, **self._collect_dataset(dataset + "/" + filename)}
             else:
                 output = {**output, **self._collect_dataset(dataset)}
+            
         return output
 
     def _collect_dataset(self, dataset):
