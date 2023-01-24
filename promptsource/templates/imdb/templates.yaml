@@ -139,6 +139,21 @@ templates:
       original_task: true
     name: Reviewer Expressed Sentiment
     reference: ''
+  dacb5f03-dc80-428c-b707-8574436675c9: !Template
+    answer_choices: 0 ||| 1
+    id: dacb5f03-dc80-428c-b707-8574436675c9
+    jinja: 'Consider the following example:  {{text}}
+
+      Between {{ answer_choices[0] }} and {{answer_choices[1] }}, which is the sentiment
+      of this example ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      languages:
+      - en
+      metrics: []
+      original_task: true
+    name: choose_between_2
+    reference: ''
   e01970ab-42c0-4e6e-a08f-4940d889ef37: !Template
     answer_choices: They didn't like it! ||| They loved it
     id: e01970ab-42c0-4e6e-a08f-4940d889ef37
@@ -152,4 +167,19 @@ templates:
       - Accuracy
       original_task: true
     name: Reviewer Enjoyment
+    reference: ''
+  eb791ab2-d2b4-4be6-a569-64086983abee: !Template
+    answer_choices: 0 ||| 1
+    id: eb791ab2-d2b4-4be6-a569-64086983abee
+    jinja: 'Consider the following example:  {{text}}
+
+      Between {{ answer_choices[0] }} and {{answer_choices[1] }}, the sentiment of
+      this example is ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      languages:
+      - en
+      metrics: []
+      original_task: true
+    name: choose_between_1
     reference: ''
