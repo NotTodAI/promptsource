@@ -150,7 +150,8 @@ templates:
       choices_in_prompt: true
       languages:
       - en
-      metrics: []
+      metrics:
+      - Accuracy
       original_task: true
     name: choose_between_2
     reference: ''
@@ -179,7 +180,8 @@ templates:
       choices_in_prompt: true
       languages:
       - en
-      metrics: []
+      metrics:
+      - Accuracy
       original_task: true
     name: choose_between_1
     reference: ''
