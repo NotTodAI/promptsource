@@ -62,6 +62,37 @@ templates:
       original_task: true
     name: Is_this_product_review_positive
     reference: ''
+  6c5f5813-0443-4944-b77a-c0d08885c16b: !Template
+    answer_choices: Negative ||| Positive
+    id: 6c5f5813-0443-4944-b77a-c0d08885c16b
+    jinja: 'Consider the following example: '''''' {{content}} ''''''
+
+      Between {{answer_choices[0]}} and {{answer_choices[1]}}, which is the sentiment
+      of this example? ||| {{answer_choices[label]}}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      languages:
+      - en
+      metrics: []
+      original_task: true
+    name: choose_between_2
+    reference: ''
+  7c5f5813-0443-4944-b77a-c0d08885c16b: !Template
+    answer_choices: Negative ||| Positive
+    id: 7c5f5813-0443-4944-b77a-c0d08885c16b
+    jinja: 'Consider the following example: '''''' {{content}} ''''''
+
+      Between {{answer_choices[0]}} and {{answer_choices[1]}}, the sentiment of this
+      example is ||| {{answer_choices[label]}}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      languages:
+      - en
+      metrics:
+      - Accuracy
+      original_task: true
+    name: choose_between_1
+    reference: ''
   745b9c05-10df-4a7e-81ad-1b88cefcb166: !Template
     answer_choices: Yes ||| No
     id: 745b9c05-10df-4a7e-81ad-1b88cefcb166

@@ -53,6 +53,23 @@ templates:
       original_task: true
     name: i_am_hesitating
     reference: ''
+  5c5f5813-0443-4944-b77a-c0d08885c16b: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 5c5f5813-0443-4944-b77a-c0d08885c16b
+    jinja: 'Consider the following premise: '''''' {{premise}} '''''' Choice 1: {{answer_choices[0]}}
+
+      Choice 2: {{answer_choices[1]}}
+
+      Q: Which one is more likely to be the {{question}}, choice 1 or choice 2? |||
+      {{answer_choices[label]}}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      languages:
+      - en
+      metrics: []
+      original_task: true
+    name: choose_between
+    reference: ''
   66ea075e-4d03-4a78-b1fa-9a5228cf0c9d: !Template
     answer_choices: '{{choice1}} ||| {{choice2}}'
     id: 66ea075e-4d03-4a78-b1fa-9a5228cf0c9d
