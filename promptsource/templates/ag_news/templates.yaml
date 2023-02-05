@@ -90,7 +90,7 @@ templates:
       - en
       metrics: []
       original_task: true
-    name: choose_between_1
+    name: burns_1
     reference: Burns et al
   b2d49782-dfd9-41a5-87a6-8fceab9c2198: !Template
     answer_choices: World politics ||| Sports ||| Business ||| Science and technology
@@ -104,7 +104,7 @@ templates:
       - en
       metrics: []
       original_task: true
-    name: choose_between_2
+    name: burns_2
     reference: Burns et al
   b3d49782-dfd9-41a5-87a6-8fceab9c2198: !Template
     answer_choices: World politics ||| Sports ||| Business ||| Science and technology
@@ -118,7 +118,7 @@ templates:
       - en
       metrics: []
       original_task: true
-    name: choose_between_3
+    name: burns_3
     reference: Burns et al
   b4d49782-dfd9-41a5-87a6-8fceab9c2198: !Template
     answer_choices: World politics ||| Sports ||| Business ||| Science and technology
@@ -131,7 +131,7 @@ templates:
       - en
       metrics: []
       original_task: true
-    name: choose_between_4
+    name: burns_4
     reference: Burns et al
   b5d49782-dfd9-41a5-87a6-8fceab9c2198: !Template
     answer_choices: World politics ||| Sports ||| Business ||| Science and technology
@@ -144,7 +144,7 @@ templates:
       - en
       metrics: []
       original_task: true
-    name: choose_between_5
+    name: burns_5
     reference: Burns et al
   b6d49782-dfd9-41a5-87a6-8fceab9c2198: !Template
     answer_choices: World politics ||| Sports ||| Business ||| Science and technology
@@ -157,7 +157,7 @@ templates:
       - en
       metrics: []
       original_task: true
-    name: choose_between_6
+    name: burns_6
     reference: Burns et al
   b7d49782-dfd9-41a5-87a6-8fceab9c2198: !Template
     answer_choices: World politics ||| Sports ||| Business ||| Science and technology
@@ -170,7 +170,7 @@ templates:
       - en
       metrics: []
       original_task: true
-    name: choose_between_7
+    name: burns_7
     reference: Burns et al
   b8d49782-dfd9-41a5-87a6-8fceab9c2198: !Template
     answer_choices: World politics ||| Sports ||| Business ||| Science and technology
@@ -183,7 +183,7 @@ templates:
       - en
       metrics: []
       original_task: true
-    name: choose_between_8
+    name: burns_8
     reference: Burns et al
   b401b0ee-6ffe-4a91-8e15-77ee073cd858: !Template
     answer_choices: World politics ||| Sports ||| Business ||| Science and technology

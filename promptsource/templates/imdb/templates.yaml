@@ -153,7 +153,7 @@ templates:
       metrics:
       - Accuracy
       original_task: true
-    name: choose_between_2
+    name: burns_2
     reference: ''
   e01970ab-42c0-4e6e-a08f-4940d889ef37: !Template
     answer_choices: They didn't like it! ||| They loved it
@@ -183,5 +183,5 @@ templates:
       metrics:
       - Accuracy
       original_task: true
-    name: choose_between_1
+    name: burns_1
     reference: ''

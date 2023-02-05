@@ -75,7 +75,7 @@ templates:
       - en
       metrics: []
       original_task: true
-    name: choose_between_2
+    name: burns_2
     reference: ''
   7c5f5813-0443-4944-b77a-c0d08885c16b: !Template
     answer_choices: Negative ||| Positive
@@ -91,7 +91,7 @@ templates:
       metrics:
       - Accuracy
       original_task: true
-    name: choose_between_1
+    name: burns_1
     reference: ''
   745b9c05-10df-4a7e-81ad-1b88cefcb166: !Template
     answer_choices: Yes ||| No
