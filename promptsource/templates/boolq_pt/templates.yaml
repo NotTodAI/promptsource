@@ -1,4 +1,4 @@
-dataset: boolq_pt
+dataset: maritaca-ai/boolq_pt
 templates:
   3e386463-1715-4578-9cba-07d11a0d3b61: !Template
     answer_choices: False ||| True
